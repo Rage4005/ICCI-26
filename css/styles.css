@@ -189,6 +189,9 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 30%;
+  width: 30%;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
@@ -487,6 +490,10 @@ footer p {
   animation: fadeIn 1s ease forwards;
 }
 
+.comming-soon{
+  margin: 150px auto;
+  height: 100%;
+}
 
 /*==================
  SLIDER SECTION
@@ -562,4 +569,15 @@ footer p {
 
 #mu-slider .mu-slider-content a {
   margin-top: 25px;
+}
+
+
+/* CSS FOR CONTACT_US.HTML */
+
+.margin-auto{
+  margin: auto;
+}
+
+.btn-left{
+  margin: auto;
 }
