@@ -1,0 +1,565 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* css for navbar */
+.navback{
+  background-color: #34495E;
+}
+
+.img-brand{
+  width: 15em;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.nav-item:hover{
+  text-decoration: underline;
+}
+
+.text-light{
+  font-weight: bold;
+}
+
+.logos-row {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* CSS for the footer */
+footer {
+  font-size: 0.9rem;
+}
+
+footer img {
+  max-width: 100%;
+}
+
+footer hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+
+/* Custom CSS for styling index.html*/
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value to change the opacity */
+  z-index: 1;
+}
+
+.text-over-img {
+  z-index: 2;
+}
+
+.text-welcome {
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-to {
+  font-size: 3rem;
+  color: rgb(61, 61, 61);
+  font-weight: bold;
+}
+
+.text-icci {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #3357cd;
+}
+
+.text-slng {
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.registration-btn,
+.contact-btn {
+  font-size: 1.3rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 100px;
+  margin-top: 25px;
+  width: 30%;
+}
+
+.contact-btn {
+  background-color: #3357cd;
+  margin-left: 20px;
+}
+
+.registration-btn {
+  background-color: #159f84;
+}
+
+.Preamble-txt {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.important-dates-container {
+  background-color: #f8f9fa;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.id-title {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.id-timeline-item {
+  margin-bottom: 15px;
+}
+
+.id-timeline-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #159f84;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.id-timeline-content {
+  font-size: 1.1rem;
+}
+
+.content-center{
+  padding-top: 50px;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.b1 {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  border: none;
+  border-radius: 10%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ib1{
+  border: none;
+  background-color: #3357cd;
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+.ib2{
+  margin-top: 25px;
+
+}
+.b1cr {
+  background-color: #159f84;
+}
+
+.b1_text h5 {
+  font-size: 1.5rem;
+}
+
+.center_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.b1_img {
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .text-over-img {
+      text-align: center;
+  }
+
+  .text-welcome,
+  .text-icci,
+  .text-to,
+  .text-slng,
+  .registration-btn,
+  .contact-btn {
+      text-align: center;
+  }
+
+  .registration-btn,
+  .contact-btn {
+      margin-top: 5px;
+      margin-right: 5px;
+  }
+
+  .cnt1 {
+      margin-bottom: 20px;
+  }
+}
+
+.timeline-item {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+
+.timeline-content {
+  margin-left: 40px;
+  margin-top: -25px;
+}
+
+.timeline-desc{
+  position: absolute;
+  margin-top: -15px;
+
+}
+
+.past-event {
+  opacity: 0.5;
+}
+
+.bold-event {
+  font-weight: bold;
+}
+
+
+/* Custom CSS for Call For Papers section */
+
+.cpf_body {
+  padding: 30px 0;
+}
+
+.cpf_text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.fa-circle {
+  color: #3357cd;
+  padding: 30px 0;
+}
+
+.fa-circle1 {
+  color: #3357cd;
+  border: 2px dotted black;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+.fa-circle2 {
+  color: #159f84;
+  border: 2px dotted black;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+/* Shadows for cards */
+.shadow {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .cpf_text {
+    font-size: 1rem;
+  }
+}
+
+
+
+/* Custom CSS for about_us.html */
+
+.img-relative {
+  width: 100%;
+  height: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.img-relative {
+  height: 75vh; /* Set height to 75% of viewport height */
+  position: relative;
+  overflow: hidden; /* Hide overflow content */
+}
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel-item {
+  height: 100%;
+}
+
+/* Adjust carousel caption position */
+.carousel-caption {
+  bottom: 0;
+}
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url('/images/about_kjc.png') center center/cover no-repeat;
+}
+
+
+.text_abt {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.line {
+  width: 50px;
+  height: 3px;
+  background-color: #3357cd;
+  margin: 10px auto;
+}
+
+.color159f84{
+  width: 250px;
+  height: 3px;
+  background-color: #3357cd;
+  margin: 10px auto;
+}
+
+.color159f84small{
+  width: 100px;
+}
+
+.about_kjc,
+.about_cs,
+.about_lin {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+
+/* Custom CSS for committiees.html */
+
+.clr_1{
+  background-color: #159f84;
+}
+.clr_2{
+  background-color: #3357cd;
+}
+.cline{
+  height: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* 
+.div-inline{
+  position: relative;
+  display: inline-flex;
+  margin: 0px auto;
+  opacity: 0.5;
+}
+.dot-m{
+  height: 5px;
+  width: 15px;
+  background-color: #3357cd;
+  border-radius: 100px;
+  margin: -40px 5px;
+}
+
+.dot{
+  height: 5px;
+  width: 5px;
+  background-color: #3357cd;
+  border-radius: 100px;
+  margin: -40px 5px;
+} */
+
+/* css for registration.html */
+
+.table {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.table th,
+.table td {
+  border-color: #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #e9ecef;
+}
+
+.table-striped tbody tr:hover {
+  background-color: #c8d6e5;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* css for submission.html */
+.section {
+  margin-bottom: 30px;
+}
+.line {
+  height: 3px;
+  width: 50px;
+  background-color: #3357cd;
+  margin-bottom: 15px;
+}
+.instructions-for-authors-list {
+  margin-left: 20px;
+}
+
+
+/* css for technical_sessions.html | Hover effect */
+.card {
+  transition: transform 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+/* Onload animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.card {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+
+/*==================
+ SLIDER SECTION
+====================*/
+
+#mu-slider {
+  width: 100%;
+}
+
+#mu-slider .mu-slider-single {
+  position: relative;
+}
+
+#mu-slider .mu-slider-img {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#mu-slider .mu-slider-img:after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#mu-slider .mu-slider-img figure {
+  height: 100%;
+  margin: 0;
+}
+
+#mu-slider .mu-slider-img figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#mu-slider .mu-slider-content {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 35%;
+  padding: 0 15%;
+  text-align: center;
+}
+
+#mu-slider .mu-slider-content h4 {
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+#mu-slider .mu-slider-content span {
+  display: inline-block;
+  height: 1px;
+  width: 100px;
+}
+
+#mu-slider .mu-slider-content h2 {
+  font-size: 50px;
+  line-height: 100px;
+  margin-bottom: 10px;
+}
+
+#mu-slider .mu-slider-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+}
+
+#mu-slider .mu-slider-content a {
+  margin-top: 25px;
+}

@@ -1,0 +1,65 @@
+/* Responsive styles for mobile, tablet, and small laptops */
+@media (max-width: 992px) {
+    /* Text over image */
+    .text-over-img {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* Welcome text */
+    .text-welcome {
+      font-size: 3rem;
+    }
+  
+    /* "to" text */
+    .text-to {
+      font-size: 1.5rem;
+    }
+  
+    /* ICCI text */
+    .text-icci {
+      font-size: 1.8rem;
+    }
+  
+    /* Subtitle text */
+    .text-slng {
+      font-size: 1.2rem;
+    }
+  
+    /* Buttons */
+    .registration-btn,
+    .contact-btn {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Welcome text */
+    .text-welcome {
+      font-size: 1.3rem;
+    }
+  
+    /* "to" text */
+    .text-to {
+      font-size: 0.8rem;
+    }
+  
+    /* ICCI text */
+    .text-icci {
+      font-size: 1rem;
+    }
+  
+    /* Subtitle text */
+    .text-slng {
+      font-size: 0.5rem;
+    }
+  
+    /* Buttons */
+    .registration-btn,
+    .contact-btn {
+      font-size: 0.6rem;
+      margin-top: 10px;
+    }
+  }
+  
