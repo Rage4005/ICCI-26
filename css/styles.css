@@ -1,5 +1,8 @@
 *{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  background-color: rgb(27, 117, 187, 0.1);
 }
 /* css for navbar */
 .navback{
@@ -65,9 +68,9 @@ footer p {
 }
 
 .text-welcome {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 
 .text-to {
@@ -77,13 +80,13 @@ footer p {
 }
 
 .text-icci {
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   font-weight: bold;
   color: #3357cd;
 }
 
 .text-slng {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-style: italic;
   font-weight: bold;
   background-color: rgb(21, 159, 132, 0.1);
@@ -520,6 +523,7 @@ footer p {
 }
 
 #mu-slider .mu-slider-content h4 {
+  font-size: 2em;
   letter-spacing: 1px;
   margin-bottom: 0;
 }
@@ -537,7 +541,7 @@ footer p {
 }
 
 #mu-slider .mu-slider-content p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   letter-spacing: 0.5px;
   line-height: 28px;
 }
@@ -670,9 +674,6 @@ footer p {
   }
   .organized-by{
     font-size: 60%;
-  }
-  .kjc-slider{
-    font-size: 75%;
   }
   .top-connect{
     position: relative;
