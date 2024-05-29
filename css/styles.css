@@ -194,31 +194,6 @@ footer p {
   margin: auto;
 }
 
-@media (max-width: 768px) {
-  .text-over-img {
-      text-align: center;
-  }
-
-  .text-welcome,
-  .text-icci,
-  .text-to,
-  .text-slng,
-  .registration-btn,
-  .contact-btn {
-      text-align: center;
-  }
-
-  .registration-btn,
-  .contact-btn {
-      margin-top: 5px;
-      margin-right: 5px;
-  }
-
-  .cnt1 {
-      margin-bottom: 20px;
-  }
-}
-
 .timeline-item {
   margin-bottom: 50px;
   position: relative;
@@ -556,20 +531,17 @@ footer p {
 }
 
 #mu-slider .mu-slider-content h2 {
-  font-size: 50px;
+  font-size: 3em;
   line-height: 100px;
   margin-bottom: 10px;
 }
 
 #mu-slider .mu-slider-content p {
-  font-size: 18px;
+  font-size: 1.5em;
   letter-spacing: 0.5px;
   line-height: 28px;
 }
 
-#mu-slider .mu-slider-content a {
-  margin-top: 25px;
-}
 
 
 /* CSS FOR CONTACT_US.HTML */
@@ -586,7 +558,7 @@ footer p {
 
 .coming-soon-container {
   background-color: #f8f9fa;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -624,7 +596,7 @@ footer p {
 }
 
 .table thead th {
-  background-color: #343a40;
+  background-color: rgb(56, 93, 214, 0.8);
   color: #fff;
   font-weight: bold;
   font-size: 1.1rem;
@@ -646,4 +618,71 @@ footer p {
 
 .table-professional em {
   font-style: italic;
+}
+
+.table-professional tbody tr:hover td {
+  background-color: #f0f0f0; 
+}
+.table-professional tbody tr td:hover {
+  font-weight: bold;
+  /* color: #fff; */
+  background-color: rgb(21, 159, 132, 0.2); 
+}
+
+
+
+
+
+
+/* media for phone */
+@media (max-width: 768px) {
+  .text-over-img {
+      text-align: center;
+  }
+
+  .text-welcome,
+  .text-icci,
+  .text-to,
+  .text-slng,
+  .registration-btn,
+  .contact-btn {
+      text-align: center;
+  }
+
+  .registration-btn,
+  .contact-btn {
+      margin-top: 5px;
+      margin-right: 5px;
+  }
+
+  .cnt1 {
+      margin-bottom: 20px;
+  }
+  #mu-slider .mu-slider-content h2 {
+    font-size: 1em;
+    line-height: 50px;
+    margin-bottom: 10px;
+  }
+  #mu-slider .mu-slider-content p {
+    font-size: 0.4em;
+    letter-spacing: 0.5px;
+    line-height: 10px;
+  }
+  .organized-by{
+    font-size: 60%;
+  }
+  .kjc-slider{
+    font-size: 75%;
+  }
+  .top-connect{
+    position: relative;
+    top: -32em; 
+  }
+  .about_lin{
+    margin-bottom: -30em;
+  }
+  .addressing-center p{
+    text-align: center;
+    margin: auto;
+  }
 }
