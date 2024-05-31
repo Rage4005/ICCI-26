@@ -283,6 +283,9 @@ footer p {
   .cpf_text {
     font-size: 1rem;
   }
+  .organized-by{
+    font-size: 20px;
+  }
 }
 
 
@@ -562,7 +565,7 @@ footer p {
   text-align: center;
 }
 
-#mu-slider .mu-slider-content h4 {
+#mu-slider .mu-slider-content h5 {
   font-size: 2em;
   letter-spacing: 1px;
   margin-bottom: 0;
@@ -717,9 +720,9 @@ footer p {
     letter-spacing: 0.5px;
     line-height: 10px;
   }
-  .kjc-slider, .organized-by{
+  /* .kjc-slider, .organized-by{
     font-size: 1.5rem;
-  }
+  } */
   .top-connect{
     position: relative;
     top: -32em; 
@@ -730,5 +733,8 @@ footer p {
   .addressing-center p{
     text-align: center;
     margin: auto;
+  }
+  #mu-slider .mu-slider-content h5 {
+    font-size: 1em;
   }
 }

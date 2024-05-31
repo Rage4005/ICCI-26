@@ -4,6 +4,23 @@
     .text-over-img {
       width: 80%;
     }
+    .organized-by{
+      font-size: 20px;
+
+    }
+    .text-over-img {
+      z-index: 2;
+      margin-top: 120px;
+      margin-bottom: 0;
+      position: relative;
+      bottom: 0;
+    }
+    .text-slng {
+      margin-top: 15px;
+    }
+    .text-icci {
+      margin-top: 10px;
+    }
   }
   
   @media (max-width: 768px) {
@@ -32,6 +49,23 @@
     .contact-btn {
       font-size: 1rem;
     }
+    .organized-by{
+      font-size: 20px;
+
+    } 
+    .text-over-img {
+      z-index: 2;
+      margin-top: 120px;
+      margin-bottom: 0;
+      position: relative;
+      bottom: 0;
+    }
+    .text-slng {
+      margin-top: 15px;
+    }
+    .text-icci {
+      margin-top: 10px;
+    }
   }
   
   @media (max-width: 576px) {
@@ -59,6 +93,23 @@
     .registration-btn,
     .contact-btn {
       font-size: 0.6rem;
+      margin-top: 10px;
+    }
+    .organized-by{
+      font-size: 20px;
+
+    }
+    .text-over-img {
+      z-index: 2;
+      margin-top: 120px;
+      margin-bottom: 0;
+      position: relative;
+      bottom: 0;
+    }
+    .text-slng {
+      margin-top: 15px;
+    }
+    .text-icci {
       margin-top: 10px;
     }
   }
