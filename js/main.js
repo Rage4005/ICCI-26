@@ -24,3 +24,8 @@ function gotoRegistration(){
 function gotoContact(){
     window.location.href = "contact_us.html"
 }
+
+document.getElementById('cd__main').addEventListener('animationend', function() {
+    document.getElementById('divBlock').style.opacity = '1'; // Show the div
+  });
+  
