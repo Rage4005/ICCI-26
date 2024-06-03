@@ -5576,3 +5576,36 @@ F
     bottom: 0;
   }
 }
+
+
+
+.container-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+#floatingImg {
+  border: hidden;
+  border-radius: 100%;
+  position: absolute;
+  animation: floatAnimation 3s ease-in-out infinite;
+  width: 400px; /* Adjust size as needed */
+}
+
+@keyframes floatAnimation {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-30px); /* Adjust floating height */
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
