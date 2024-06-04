@@ -1,5 +1,5 @@
 /* Responsive styles for mobile, tablet, and small laptops */
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
     /* Text over image */
     .text-over-img {
       width: 80%;
@@ -27,13 +27,13 @@
       margin-top: 10px;
     }
     .icci-img-fluid{
-      min-width: 10em;
-      min-height: 10em;
+      min-width: 5em;
+      min-height: 5em;
       display: block;
       margin: auto;
       box-shadow: 5px 0px 20px black;
-      height: 5%;
-      width: 5%;
+      height: 3%;
+      width: 3%;
       z-index: 5;
     }
     .container-div{
@@ -103,8 +103,8 @@
     }
 
     .icci-img-fluid{
-      min-width: 10em;
-      min-height: 10em;
+      min-width: 8em;
+      min-height: 8em;
       display: block;
       margin: auto;
       box-shadow: 5px 0px 20px black;
@@ -171,8 +171,8 @@
       font-size: 0.7em;
     }
     .icci-img-fluid{
-      min-width: 5em;
-      min-height: 5em;
+      min-width: 4em;
+      min-height: 4em;
       display: block;
       margin: auto;
       box-shadow: 5px 0px 20px black;
