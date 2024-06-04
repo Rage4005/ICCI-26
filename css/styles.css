@@ -6,7 +6,7 @@ body{
 }
 /* css for navbar */
 .navback{
-  background-color: #34495E;
+  background-color: rgb(52, 73, 94);
 }
 
 .img-brand{
@@ -59,7 +59,7 @@ footer p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(31, 31, 31, 0.5); /* Adjust the alpha value to change the opacity */
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to change the opacity */
   z-index: 1;
 }
 
@@ -232,9 +232,9 @@ footer p {
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  margin-top: 15px;
+  margin-top: 60px;
   bottom: 0;
-  background-image: linear-gradient(to right, rgba(21, 159, 132, 0) 0%, rgba(21, 159, 132, 1) 20%, rgba(21, 159, 132, 1) 80%, rgba(21, 159, 132, 0) 100%);
+  background-image: linear-gradient(to right, rgba(21, 159, 132, 0) 0%, rgba(52, 73, 94, 1) 20%, rgba(52, 73, 94, 1) 80%, rgba(21, 159, 132, 0) 100%);
 }
 .announcement{
   text-decoration: underline;
@@ -257,8 +257,18 @@ footer p {
   width: 18%;
   border-radius: 100%;
   box-shadow: 5px 0px 20px black;
-
+  opacity: 0.6;
+  /* animation: fadeanim 2s ease-in-out infinite; */
 }
+
+/* @keyframes fadeanim {
+  0%{
+    opacity: 0.4;
+  }
+  100%{
+    opacity: 1;
+  }
+} */
 
 /* Custom CSS for Call For Papers section */
 
