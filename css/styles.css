@@ -4,6 +4,113 @@
 body{
   background-color: rgb(27, 117, 187, 0.1);
 }
+
+.uppercase{
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-bolder{
+  font-weight: 900;
+  width: 100%;
+  color: rgb(27, 117, 187);
+}
+
+
+
+
+.home-img-fluid {
+  position: relative;
+  top: 0;
+  right: 0;
+  max-width: 50vw;
+  height: 60vh;
+  object-fit: cover;
+  padding: 0 0 0 25px;
+  border: rgba(51, 87, 205, 0.7) solid 10px ;
+  border-radius: 100% 0 0 100%;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.container-i {
+  position: relative;
+  width: 100%;
+  height: 150%; /* Adjust height as needed */
+  /* overflow: hidden; */
+}
+
+.text-over-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  padding: 20px; /* Add padding as needed */
+  box-sizing: border-box; /* Ensure padding is included in width */
+  /* overflow-y: auto; Add scroll if content exceeds height */
+}
+
+.margin-top-c{
+  margin-top: 0.8em;
+}
+
+.announcement-tile {
+  background-color: rgba(51, 87, 205, 0.7);
+  /* opacity: 0.5; */
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+}
+
+
+@keyframes slide {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+
+.homemovingline {
+  animation: slide 5s infinite alternate;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 767px) {
+  .row-reverse-sm {
+    flex-direction: column-reverse !important;
+  }
+
+  .text-over-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 20px; /* Add padding for better visibility */
+  }
+
+  .home-img-fluid {
+    width: 100%;
+    height: auto;
+    max-width: none;
+    padding: 0;
+    border-radius: 0;
+    border: none; /* Remove the border for better visibility */
+  }
+
+  .col-md-8 {
+    padding: 0; /* Remove padding to utilize full width */
+    margin-bottom: 20px; /* Add margin between content and image */
+  }
+}
+
+
+
+
+
+
+
+
 /* css for navbar */
 .navback{
   background-color: rgb(52, 73, 94);
@@ -59,7 +166,7 @@ footer p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha value to change the opacity */
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to change the opacity */
   z-index: 1;
 }
 
@@ -100,12 +207,12 @@ footer p {
 
 .registration-btn,
 .contact-btn {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   color: white;
   font-weight: bold;
   border-radius: 100px;
   margin-top: 25px;
-  width: 30%;
+  width: 40%;
 }
 
 .contact-btn {
@@ -115,6 +222,11 @@ footer p {
 
 .registration-btn {
   background-color: #159f84;
+}
+
+.registration-btn:hover,
+.contact-btn:hover{
+  color: #000;
 }
 
 .Preamble-txt {
@@ -229,7 +341,7 @@ footer p {
 .container-div {
   color: #fff;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   white-space: nowrap;
   position: relative;
   margin-top: 60px;
@@ -239,8 +351,15 @@ footer p {
 .announcement{
   text-decoration: underline;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1em;
 }
+.announcement-tile{
+  /* height: 15vh; */
+  max-height: 120px;
+}
+
+
+/* 
 .homemovingline {
   white-space: nowrap;
   width: 100%;
@@ -250,7 +369,7 @@ footer p {
 @keyframes marquee {
   0% { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
-}
+} */
 
 .mic{
   max-width: 50px;
@@ -756,6 +875,13 @@ footer p {
 
   .cnt1 {
       margin-bottom: 20px;
+      margin-top: 280px;
+  }
+  .margin-top-c{
+    margin-top: 50px;
+  }
+  .homemovingline{
+    flex-wrap: wrap;
   }
 
   #mu-slider .mu-slider-content p {
