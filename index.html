@@ -1,177 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="author" content="CodePel">
-      <title> Internation Conference 2025 </title>
-      <!-- Style CSS -->
-      <link rel="stylesheet" href="./css/style.css">
-      <!-- Demo CSS (No need to include it into your project) -->
-      <link rel="stylesheet" href="./css/demo.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-   </head>
-   <body style="background-color: white;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internation Conference 2025</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+  <!-- Font Awesome  -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- js -->
+  <script src="./js/main.js"></script>
+  <!-- custom css -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/responsiveness.css">
+</head>
+
+
+<body>
+
+
+<!-- First Navbar for Logos-->
+<nav class="navbar navbar-expand-lg navbar-light navback">
+  <div class="container-fluid">
+    <!-- First row with logos -->
+    <div class="row logos-row">
+      <div class="col">
+        <!-- First logo -->
+        <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
+          <img src="./images/kjc-flag-latest.png" class="img-fluid" alt="KJC_logo" loading="lazy" style="margin-top: 2px; max-height: 4em;" />
+        </a>
+      </div>
+      <div class="col">
+        <!-- Second logo -->
+        <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
+          <img src="./images/st_marysuniversity.png" class="img-fluid" alt="st_marysuniversity" loading="lazy" style="margin-top: 2px; max-height: 6em;" />
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
 
 
 
-      <!-- <div id="door" class="door">
-         <div class="left"></div>
-         <div class="right"></div>
-     </div>
-     <div id="floatingImgContainer" class="container">
-         <img id="floatingImg" src="/images/welcome-spiral.png" alt="Floating Image">
-     </div>
+<!-- Second Navbar for Navigation Links with Toggle Button-->
+<nav class="navbar navbar-expand-lg navbar-light navback">
+  <div class="container-fluid">
+    <!-- Toggler for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav text-light ">
+        <li class="nav-item mx-2">
+          <a class="nav-link text-light" href="index.html">Home</a>
+        </li>
+        <li class="nav-item mx-2 text-light">
+          <a class="nav-link text-light" href="about_us.html">About us</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-light" href="cpf.html">CPF</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-light" href="committees.html">Committees</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-light" href="technical_sessions.html">Technical Sessions</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-light" href="keynotes.html">Keynote Speakers</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-light" href="submission.html">Submission</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-light" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-light" href="contact_us.html">Contact us</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-light" href="registration.html">Registration</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 
-     <script src="script.js"></script> -->
 
-               <main class="cd__main">
-                  <div class="background background0"></div>
-                  <div class="background background1"></div>
-                  <div class="background background2"></div>
-                  <div class="background background3"></div>
-                  <div class="background background4"></div>
-                  <div class="background background5"></div>
-                  <div class="background background6"></div>
-                  <div class="background background7"></div>
-                  <div class="criterion">
-                     <div class="text text0">W</div>
-                     <div class="text text1">e</div>
-                     <div class="text text2">l</div>
-                     <div class="text text3">c</div>
-                     <div class="text text4">o</div>
-                     <div class="text text5">m</div>
-                     <div class="text text6">e</div>
+<div class="container-fluid m-0 p-0 position-relative">
+    <div class="row">
+      <div class="col-md-8 position-relative">
+        <div class="text-over-img container container-i position-absolute top-50 start-50 translate-middle text-center">
+          <div class="row justify-content-center mt-lg-5 ">
+            <!-- <h3 class="uppercase text-bold">the</h3> -->
+            <h2 class="uppercase text-bolder margin-top-c">International Conference on Computational Intelligence</h2>
+            <p class="text-dark text-bold">
+                Converging computational excellence to transcend boundaries through innovation for real-world challenges
+                </p>
+            <div class="col-sm-6 con-reg-btn">
+              <a href="registration.html"><button type="button" class="btn btn-lg registration-btn home-btn me-md-0 mb-0 mb-md-0 uppercase">Registration</button></a>
+              <a href="contact_us.html"><button type="button" class="btn btn-lg contact-btn home-btn uppercase">Contact us</button></a>
+            </div>
+          </div>
+          <div class="container-div">
+            <div class="announcement-tile">
+              <div class="announcement">Important Announcements <span><img src="/images/mic.png" alt="Announcements mic logo" class="mic"></span></div>
+              <p id="announcement-text" class="homemovingline text-bold">Abstract submissions are due by October 4th, 2024.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-4 d-none d-md-block border-black-5">
+        <img src="/images/clg_history.jpg" class="d-block w-100 home-img-fluid" alt="Background Image">
+        <!-- <div class="overlay"></div> -->
+      </div>
+    </div>
+  </div>
+  
 
+<section class="my-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-8">
+              <div class="content cnt1 content-center">
+                  <h3 class="text-center text-bold">ICCI Preamble</h3>
+                  <div class="line  mb-4"></div>
 
-                     <div class="text text-to">to</div>
-
-                     <div class="text texti1">I</div>
-                     <div class="text textc1">C</div>
-                     <div class="text textc2">C</div>
-                     <div class="text texti2">I</div>
-                     <div class="text text-space"> </div>
-                     <div class="text text252">2</div>
-                     <div class="text text255">5</div>
-
-
-                     <div class="frame frame0"></div>
-                     <div class="frame frame1"></div>
-                     <div class="frame frame2"></div>
-                     <div class="frame frame3"></div>
-                     <div class="frame frame4"></div>
-                     <div class="frame frame5"></div>
-                     <div class="frame frame6"></div>
-                     <div class="frame frame7"></div>
-                     <div class="particle particle00"></div>
-                     <div class="particle particle01"></div>
-                     <div class="particle particle02"></div>
-                     <div class="particle particle03"></div>
-                     <div class="particle particle04"></div>
-                     <div class="particle particle05"></div>
-                     <div class="particle particle06"></div>
-                     <div class="particle particle07"></div>
-                     <div class="particle particle08"></div>
-                     <div class="particle particle09"></div>
-                     <div class="particle particle010"></div>
-                     <div class="particle particle011"></div>
-                     <div class="particle particle10"></div>
-                     <div class="particle particle11"></div>
-                     <div class="particle particle12"></div>
-                     <div class="particle particle13"></div>
-                     <div class="particle particle14"></div>
-                     <div class="particle particle15"></div>
-                     <div class="particle particle16"></div>
-                     <div class="particle particle17"></div>
-                     <div class="particle particle18"></div>
-                     <div class="particle particle19"></div>
-                     <div class="particle particle110"></div>
-                     <div class="particle particle111"></div>
-                     <div class="particle particle20"></div>
-                     <div class="particle particle21"></div>
-                     <div class="particle particle22"></div>
-                     <div class="particle particle23"></div>
-                     <div class="particle particle24"></div>
-                     <div class="particle particle25"></div>
-                     <div class="particle particle26"></div>
-                     <div class="particle particle27"></div>
-                     <div class="particle particle28"></div>
-                     <div class="particle particle29"></div>
-                     <div class="particle particle210"></div>
-                     <div class="particle particle211"></div>
-                     <div class="particle particle30"></div>
-                     <div class="particle particle31"></div>
-                     <div class="particle particle32"></div>
-                     <div class="particle particle33"></div>
-                     <div class="particle particle34"></div>
-                     <div class="particle particle35"></div>
-                     <div class="particle particle36"></div>
-                     <div class="particle particle37"></div>
-                     <div class="particle particle38"></div>
-                     <div class="particle particle39"></div>
-                     <div class="particle particle310"></div>
-                     <div class="particle particle311"></div>
-                     <div class="particle particle40"></div>
-                     <div class="particle particle41"></div>
-                     <div class="particle particle42"></div>
-                     <div class="particle particle43"></div>
-                     <div class="particle particle44"></div>
-                     <div class="particle particle45"></div>
-                     <div class="particle particle46"></div>
-                     <div class="particle particle47"></div>
-                     <div class="particle particle48"></div>
-                     <div class="particle particle49"></div>
-                     <div class="particle particle410"></div>
-                     <div class="particle particle411"></div>
-                     <div class="particle particle50"></div>
-                     <div class="particle particle51"></div>
-                     <div class="particle particle52"></div>
-                     <div class="particle particle53"></div>
-                     <div class="particle particle54"></div>
-                     <div class="particle particle55"></div>
-                     <div class="particle particle56"></div>
-                     <div class="particle particle57"></div>
-                     <div class="particle particle58"></div>
-                     <div class="particle particle59"></div>
-                     <div class="particle particle510"></div>
-                     <div class="particle particle511"></div>
-                     <div class="particle particle60"></div>
-                     <div class="particle particle61"></div>
-                     <div class="particle particle62"></div>
-                     <div class="particle particle63"></div>
-                     <div class="particle particle64"></div>
-                     <div class="particle particle65"></div>
-                     <div class="particle particle66"></div>
-                     <div class="particle particle67"></div>
-                     <div class="particle particle68"></div>
-                     <div class="particle particle69"></div>
-                     <div class="particle particle610"></div>
-                     <div class="particle particle611"></div>
-                     <div class="particle particle70"></div>
-                     <div class="particle particle71"></div>
-                     <div class="particle particle72"></div>
-                     <div class="particle particle73"></div>
-                     <div class="particle particle74"></div>
-                     <div class="particle particle75"></div>
-                     <div class="particle particle76"></div>
-                     <div class="particle particle77"></div>
-                     <div class="particle particle78"></div>
-                     <div class="particle particle79"></div>
-                     <div class="particle particle710"></div>
-                     <div class="particle particle711"></div>
+                  <p class="Preamble-txt">
+                    The Department announces the International Conference on Computational Intelligence (ICCI), scheduled for February 26th and 27th, 2025. The conference focuses on the theme – “Converging computational excellence to transcend boundaries through innovation for real-world challenges”. This conference will serve as a platform to delve into the latest developments, approaches, research trends, challenges, and unresolved issues in Computational Intelligence.
+                    <br><br>
+                    ICCI-2025 aims to bring together distinguished Academicians, Researchers, Engineers, and Scientists from across the country to share their insights and present new advances and research outcomes in the field. Through this exchange of knowledge, the conference endeavours to narrow the gap between academic research and practical applications in Computational Intelligence.
+                    <br><br>
+                    ICCI-2025 will delve into the societal and commercial implications of Computational Intelligence, addressing its impact on diverse aspects of life, economy, and the environment.
+                  </p>
+                  <p>
+                    <strong>Publication Partner - </strong>Journal of Organizational and End User Computing
+                    Scopus Indexed Springer Series 
+                  </p>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="important-dates-container b1">
+                <div class="ib1">
+                <div class="id-header">
+                    <h4 class="id-title text-bold text-center text-light">Important Dates</h4>
+                </div>
+                </div>
+                <div class="id-timeline text-start m-5">
+                    <div class="timeline-item">
+                      <i class="fas fa-circle fa-circle1 me-2"></i>
+                        <div class="timeline-content">
+                            <p class="text-bold">4th October, 2024</p>
+                            <p class="timeline-desc">Submission of Abstract</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                      <i class="fas fa-circle fa-circle2 me-2"></i>
+                        <div class="timeline-content">
+                            <p class="text-bold">15th December, 2024</p>
+                            <p class="timeline-desc">Submission of Research Articles</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <i class="fas fa-circle fa-circle1 me-2"></i>
+                        <div class="timeline-content">
+                            <p class="text-bold">5th January, 2025</p>
+                            <p class="timeline-desc">Notification of Acceptance of Research article</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                      <i class="fas fa-circle fa-circle2 me-2"></i>
+                        <div class="timeline-content">
+                            <p class="text-bold">20th January, 2025 </p>
+                            <p class="timeline-desc">Camera Ready Articles</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                      <i class="fas fa-circle fa-circle1 me-2"></i>
+                      <div class="timeline-content">
+                          <p class="text-bold">10th January, 2025  </p>
+                          <p class="timeline-desc">Last Date for Participant Registration</p>
+                      </div>
                   </div>
-               </main>
+                  <div class="timeline-item">
+                    <i class="fas fa-circle fa-circle1 me-2"></i>
+                    <div class="timeline-content">
+                        <p class="text-bold">26th - 27th February , 2025 </p>
+                        <p class="timeline-desc">Conference</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+         
+      </div>
+  </div>
+</section>
 
-               <div class="divBlock">
-                  <h2 class="text-slang25">Converging computational excellence to transcend boundaries through innovation for real-world challenges</h2>
-               </div>
-      
-               <script>
-                  // Function to redirect to index page after 10 seconds
-                  setTimeout(function() {
-                      window.location.href = 'home.html';
-                  }, 8000); 
-              </script> 
-   </body>
+<section class="my-5 ">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 col-sm-12 mb-5">
+              <div class="b1">
+                  <div class="ib1">
+                      <div class="b1_text text-light text-bold">
+                          <h5 class="text-bold">Submission method</h5>
+                      </div>
+                  </div>
+                  <div class="center_item ib2">
+                      <p>Mail here to submit your paper</p>
+                      <a href="mailto:ncci@kristujayanti.com"><h6><b>ncci@kristujayanti.com</b></h6></a>
+                  </div>
+              </div>  
+          </div>
+          <div class="col-md-4 col-sm-12 mb-5">
+              <div class="b1">
+                  <div class="ib1 b1cr">
+                      <div class="b1_text text-light text-bold">
+                          <h5 class="text-bold coolor">Download Brochure</h5>
+                      </div>
+                  </div>
+                  <div class="center_item ib2">
+                      <p>Download brochure from here!</p>
+                      <a href="/pdfs/Conference_Brochure_2025.pdf" download><h6><b>Download now</b></h6></a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mb-5">
+              <div class="b1">
+                  <div class="ib1">
+                      <div class="b1_text text-light text-bold">
+                          <h5 class="text-bold">Abstracting and Indexing</h5>
+                      </div>
+                  </div>
+                  <div class="center_item ib2">
+                    <p>
+                      Journal of Organizational and End User Computing
+                      <br> 
+                      Scopus Indexed Springer Series
+                    </p>
+                      <!-- <p>Journal of Organizational and End User Computing (JOEUC) - Scopus and Springer</p> -->
+                      <img src="images/igiglobal.jpeg" class="img-fluid b1_img" alt="Abstracting and Indexing">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+  
+
+
+
+<footer class="bg-dark text-white py-4">
+  <div class="container">
+    <hr>
+    <div class="row">
+      <div class="col-md-3 mb-3 mb-md-0 text-center">
+        <img src="images/clogo 2 white.png" alt="Logo" class="img-fluid">
+      </div>
+      <div class="col-md-6 text-md-start mb-3 mb-md-0 mt-md-5 addressing-center">
+        <p class="mt-md-0">Kristu Jayanti College (Autonomous)<br>K. Narayanapura, Kothanur (PO)<br>Bengaluru 560077</p>
+        <p>+91 9731778310<br>+91 8971002351<br>ncci@kristujayanti.com</p>
+      </div>
+      <div class="col-md-3 text-center text-md-end mt-md-5">
+        <p class="mt-md-0">Social Media</p>
+        <div class="d-flex justify-content-center justify-content-md-end">
+          <a href="https://www.facebook.com/KristuJayantiCollege/" target="_blank" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="https://twitter.com/KJCAutonomous/" target="_blank" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="https://www.linkedin.com/school/kristujayanticollegeautonomous/" target="_blank" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a href="https://www.instagram.com/icci25.kjc/" target="_blank" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <nav class="navbar justify-content-center">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-white">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about_us.html" class="nav-link text-white">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="registration.html" class="nav-link text-white">Registration</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link text-white">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="committees.html" class="nav-link text-white">Committees</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact_us.html" class="nav-link text-white">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="/pdfs/Conference_Brochure_2025.pdf" class="nav-link text-white" download>Download Brochure</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="mt-3 mb-0">Copyright &copy; <span id="currentYear"></span> | 8th International Conference on Computational Intelligence</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+  // if (performance.navigation.type === 1) {
+  //       // Redirect to the specific page
+  //       window.location.href = "index.html";
+  //   }
+
+    const announcements = [
+  "Abstract submissions are due by October 4th, 2024.",
+  "Research article submissions should be completed by December 15th, 2024.",
+  "The final date for participant registration is January 10th, 2025.",
+  "The conference will take place on February 26th and 27th, 2025."
+];
+
+const announcementText = document.getElementById("announcement-text");
+let index = 0;
+
+setInterval(() => {
+  announcementText.textContent = announcements[index];
+  index = (index + 1) % announcements.length;
+}, 5000);
+
+</script>
+
+
+
+  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
