@@ -64,17 +64,19 @@ body{
   border-radius: 10px;
   margin-bottom: 20px;
   overflow-wrap: break-word;
+  
 }
 
 
 @keyframes slide {
   0% { transform: translateY(0); }
-  100% { transform: translateY(-100%); }
+  100% { transform: translateY(-75%); }
 }
 
 .homemovingline {
   animation: slide 5s infinite alternate;
   overflow-wrap: break-word;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -350,8 +352,10 @@ footer p {
 }
 .announcement{
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 1em;
+  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .announcement-tile{
   /* height: 15vh; */
