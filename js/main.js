@@ -29,20 +29,3 @@ document.getElementById('cd__main').addEventListener('animationend', function() 
     document.getElementById('divBlock').style.opacity = '1'; // Show the div
   });
   
-
-
-  function validateForm() {
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var phone = document.getElementById("phone").value;
-    var message = document.getElementById("message").value;
-
-    if (name === "" || email === "" || phone === "" || message === "") {
-        alert("Please fill out all required fields.");
-        return false;
-    }
-    else{
-        alert("Thank you, your form has been submitted.");
-        return true;
-    }
-}

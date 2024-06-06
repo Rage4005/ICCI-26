@@ -150,6 +150,7 @@
                 method="POST"
                 name="EmailForm"
                 onsubmit="return validateForm()"
+                id="myForm"
               >
                   <div class="mb-3">
                       <label for="name" class="form-label">Name</label>
@@ -235,6 +236,40 @@
     </div>
   </div>
 </footer>
+
+<script>
+  if (performance.navigation.type === 1) {
+    clearForm();
+      }
+        
+
+  function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var phone = document.getElementById("phone").value;
+    var message = document.getElementById("message").value;
+    var form = document.getElementById("myForm");
+
+    if (name === "" || email === "" || phone === "" || message === "") {
+        alert("Please fill out all required fields.");
+        return false;
+    }
+    else {
+        alert("Thank you, your form has been submitted.");
+        // clearForm(); // Call function to clear form fields
+        // return true;
+    }
+}
+
+function clearForm() {
+    document.getElementById("name").value = ""; // Clear name field
+    document.getElementById("email").value = ""; // Clear email field
+    document.getElementById("phone").value = ""; // Clear phone field
+    document.getElementById("message").value = ""; // Clear message field
+}
+
+
+</script>
 
 
   <script src="./js/main.js"></script>
