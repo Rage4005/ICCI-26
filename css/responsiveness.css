@@ -194,4 +194,14 @@
   .announcement-tile{
     font-size: 0.8em;
   }
+  .content{
+    padding-left: 10px;
+  }
+  .cpf_margin{
+    margin: auto 5px;
+  }
+  .contact-btn{
+    font-size: medium;
+    margin: 1px auto;
+  }
 }
