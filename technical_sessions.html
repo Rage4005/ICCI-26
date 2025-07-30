@@ -25,27 +25,13 @@
 
 
 <!-- First Navbar for Logos-->
-<nav class="navbar navbar-expand-lg navbar-light navback">
-  <div class="container-fluid">
-    <!-- First row with logos -->
-    <div class="row logos-row">
-      <div class="col">
-        <!-- First logo -->
-        <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
-          <img src="./images/kjc-flag-latest.png" class="img-fluid" alt="KJC_logo" loading="lazy" style="margin-top: 2px; max-height: 4em;" />
-        </a>
-      </div>
-      <div class="col">
-        <!-- Second logo -->
-        <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
-          <img src="./images/st_marysuniversity.png" class="img-fluid" alt="st_marysuniversity" loading="lazy" style="margin-top: 2px; max-height: 6em;" />
-        </a>
-      </div>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-light logo-navbar">
+  <div class="container-fluid navbar-logo-group">
+    <img src="images/newFlag.png" alt="Organizing Committee Logos" class="img-fluid" loading="lazy">
+    <img src="images/oldenburg.png" alt="University of Oldenburg Logo" class="img-fluid" loading="lazy">
+    <img src="images/murray.png" alt="Murray State University Logo" class="img-fluid" loading="lazy">
   </div>
 </nav>
-
-
 
 <!-- Second Navbar for Navigation Links with Toggle Button-->
 <nav class="navbar navbar-expand-lg navbar-light navback">
@@ -71,9 +57,6 @@
         </li>
         <li class="nav-item mx-2">
           <a class="nav-link text-light" href="technical_sessions.html">Technical Sessions</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link text-light" href="keynotes.html">Keynote Speakers</a>
         </li>
         <li class="nav-item mx-2">
           <a class="nav-link text-light" href="submission.html">Submission</a>
@@ -102,134 +85,120 @@
 
 
    <div class="row m-5">
-    <div class="col-md-3 mb-4">
-      <div class="card">
-        <img src="/images/keynote.png" class="card-img-top" alt="Placeholder Image" loading="lazy">
-        <div class="card-body">
-          <h5 class="card-title text-bold">Keynote Speaker</h5>
-          <p class="card-text">
-            Dr. Dittin Andrews</p>
+      <div class="col-md-3 mb-4">
+        <div class="card technical-session-card text-center h-100" style="background: var(--card-bg); border: 2px solid var(--border-color); box-shadow: 0 6px 20px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden;">
+          <!-- Keynote Speaker Badge -->
+          <div class="badge-container" style="background: #e0fbfc; color: var(--text-primary); padding: 10px 0; font-weight: bold; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; border-bottom: 1px solid var(--border-color);">
+            KEYNOTE SPEAKER
+          </div>
+          
+          <div class="card-body d-flex flex-column align-items-center justify-content-center" style="background: var(--card-bg); margin: 0; padding: 30px 20px;">
+            <img src="images/dr_giby.jpg" alt="Dr. Giby Raphael" class="rounded-circle mb-3" style="width: 130px; height: 130px; object-fit: cover; border: 4px solid #3a506b; box-shadow: 0 4px 12px rgba(58, 80, 107, 0.4);">
+            <h4 class="card-title font-weight-bold mb-2" style="color: var(--text-primary) !important; font-size: 1.3rem; font-family: Georgia, 'Times New Roman', Times, serif;">Dr. Giby Raphael</h4>
+            <div class="title-badge" style="background: #e0fbfc; color: var(--text-primary); padding: 8px 20px; border-radius: 25px; font-size: 0.9rem; font-weight: 600; margin-bottom: 12px; border: 1px solid var(--border-color);">
+              CEO of Revobots.AI
+            </div>
+            <div class="expertise-tag" style="background: var(--card-bg); color: var(--text-primary); padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; border: 1px solid var(--border-color); font-weight: 500;">
+              AI & Robotics Expert
+            </div>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Date: Feb 27th, 2025</li>
-          <li class="list-group-item">Time: 10.45 AM - 11.45 AM</li>
-          <li class="list-group-item">Venue: A3 Audi, 5th Floor, Admin Block</li>
-        </ul>
       </div>
-    </div>
+      <div class="col-md-3 mb-4">
+        <div class="card technical-session-card text-center h-100" style="background: var(--card-bg); border: 2px solid var(--border-color); box-shadow: 0 6px 20px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden;">
+          <!-- Keynote Speaker Badge -->
+          <div class="badge-container" style="background: #e0fbfc; color: var(--text-primary); padding: 10px 0; font-weight: bold; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; border-bottom: 1px solid var(--border-color);">
+            KEYNOTE SPEAKER
+          </div>
+          
+          <div class="card-body d-flex flex-column align-items-center justify-content-center" style="background: var(--card-bg); margin: 0; padding: 30px 20px;">
+            <img src="images/Wolfram.jpg" alt="Dr. Wolfram Wingerath" class="rounded-circle mb-3" style="width: 130px; height: 130px; object-fit: cover; border: 4px solid #3a506b; box-shadow: 0 4px 12px rgba(58, 80, 107, 0.4);">
+            <h4 class="card-title font-weight-bold mb-2" style="color: var(--text-primary) !important; font-size: 1.3rem; font-family: Georgia, 'Times New Roman', Times, serif;">Dr. Wolfram Wingerath</h4>
+            <div class="title-badge" style="background: #e0fbfc; color: var(--text-primary); padding: 8px 20px; border-radius: 25px; font-size: 0.9rem; font-weight: 600; margin-bottom: 12px; border: 1px solid var(--border-color);">
+              Professor for Data Science
+            </div>
+            <div class="expertise-tag" style="background: var(--card-bg); color: var(--text-primary); padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; border: 1px solid var(--border-color); font-weight: 500;">
+              University of Oldenburg, Germany
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card technical-session-card text-center h-100" style="background: var(--card-bg); border: 2px solid var(--border-color); box-shadow: 0 6px 20px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden;">
+          <!-- Keynote Speaker Badge -->
+          <div class="badge-container" style="background: #e0fbfc; color: var(--text-primary); padding: 10px 0; font-weight: bold; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; border-bottom: 1px solid var(--border-color);">
+            KEYNOTE SPEAKER
+          </div>
+          
+          <div class="card-body d-flex flex-column align-items-center justify-content-center" style="background: var(--card-bg); margin: 0; padding: 30px 20px;">
+            <img src="images/jorge.jpeg" alt="Dr. Jorge Marx Gomez" class="rounded-circle mb-3" style="width: 130px; height: 130px; object-fit: cover; border: 4px solid #3a506b; box-shadow: 0 4px 12px rgba(58, 80, 107, 0.4);">
+            <h4 class="card-title font-weight-bold mb-2" style="color: var(--text-primary) !important; font-size: 1.3rem; font-family: Georgia, 'Times New Roman', Times, serif;">Dr. Jorge Marx Gomez</h4>
+            <div class="title-badge" style="background: #e0fbfc; color: var(--text-primary); padding: 8px 20px; border-radius: 25px; font-size: 0.9rem; font-weight: 600; margin-bottom: 12px; border: 1px solid var(--border-color);">
+              Chair of Business Information Systems
+            </div>
+            <div class="expertise-tag" style="background: var(--card-bg); color: var(--text-primary); padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; border: 1px solid var(--border-color); font-weight: 500;">
+              University of Oldenburg, Germany
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card technical-session-card text-center h-100" style="background: var(--card-bg); border: 2px solid var(--border-color); box-shadow: 0 6px 20px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden;">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center" style="background: var(--card-bg); margin: 0; padding: 40px 20px;">
+            <div class="coming-soon-icon" style="width: 80px; height: 80px; background: #f8f9fa; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 2px solid var(--border-color);">
+              <span style="font-size: 2rem; color: #6c757d;">?</span>
+            </div>
+            <h5 class="card-title font-weight-bold" style="color: var(--text-primary) !important; font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom: 10px;">Coming Soon</h5>
+            <p class="card-text" style="color: #6c757d; font-size: 0.9rem;">Speaker TBA</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card technical-session-card text-center h-100" style="background: var(--card-bg); border: 2px solid var(--border-color); box-shadow: 0 6px 20px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden;">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center" style="background: var(--card-bg); margin: 0; padding: 40px 20px;">
+            <div class="coming-soon-icon" style="width: 80px; height: 80px; background: #f8f9fa; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 2px solid var(--border-color);">
+              <span style="font-size: 2rem; color: #6c757d;">?</span>
+            </div>
+            <h5 class="card-title font-weight-bold" style="color: var(--text-primary) !important; font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom: 10px;">Coming Soon</h5>
+            <p class="card-text" style="color: #6c757d; font-size: 0.9rem;">Speaker TBA</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card technical-session-card text-center h-100" style="background: var(--card-bg); border: 2px solid var(--border-color); box-shadow: 0 6px 20px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden;">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center" style="background: var(--card-bg); margin: 0; padding: 40px 20px;">
+            <div class="coming-soon-icon" style="width: 80px; height: 80px; background: #f8f9fa; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 2px solid var(--border-color);">
+              <span style="font-size: 2rem; color: #6c757d;">?</span>
+            </div>
+            <h5 class="card-title font-weight-bold" style="color: var(--text-primary) !important; font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom: 10px;">Coming Soon</h5>
+            <p class="card-text" style="color: #6c757d; font-size: 0.9rem;">Speaker TBA</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card technical-session-card text-center h-100" style="background: var(--card-bg); border: 2px solid var(--border-color); box-shadow: 0 6px 20px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden;">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center" style="background: var(--card-bg); margin: 0; padding: 40px 20px;">
+            <div class="coming-soon-icon" style="width: 80px; height: 80px; background: #f8f9fa; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 2px solid var(--border-color);">
+              <span style="font-size: 2rem; color: #6c757d;">?</span>
+            </div>
+            <h5 class="card-title font-weight-bold" style="color: var(--text-primary) !important; font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom: 10px;">Coming Soon</h5>
+            <p class="card-text" style="color: #6c757d; font-size: 0.9rem;">Speaker TBA</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card technical-session-card text-center h-100" style="background: var(--card-bg); border: 2px solid var(--border-color); box-shadow: 0 6px 20px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden;">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center" style="background: var(--card-bg); margin: 0; padding: 40px 20px;">
+            <div class="coming-soon-icon" style="width: 80px; height: 80px; background: #f8f9fa; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 2px solid var(--border-color);">
+              <span style="font-size: 2rem; color: #6c757d;">?</span>
+            </div>
+            <h5 class="card-title font-weight-bold" style="color: var(--text-primary) !important; font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom: 10px;">Coming Soon</h5>
+            <p class="card-text" style="color: #6c757d; font-size: 0.9rem;">Speaker TBA</p>
+          </div>
+        </div>
+      </div>
 
-    <div class="col-md-3 mb-4">
-      <div class="card">
-        <img src="/images/keynote.png" class="card-img-top" alt="Placeholder Image" loading="lazy">
-        <div class="card-body">
-          <h5 class="card-title text-bold">Keynote Speaker</h5>
-          <p class="card-text">
-            Dr. Dittin Andrews</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Date: Feb 27th, 2025</li>
-          <li class="list-group-item">Time: 10.45 AM - 11.45 AM</li>
-          <li class="list-group-item">Venue: A3 Audi, 5th Floor, Admin Block</li>
-        </ul>
-      </div>
     </div>
-
-    <div class="col-md-3 mb-4">
-      <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image" loading="lazy">
-        <div class="card-body">
-          <h5 class="card-title text-bold">Technical Session 3</h5>
-          <p class="card-text">
-            A detailed paragraph related to Session.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Date: Feb 27th, 2025</li>
-          <li class="list-group-item">Time: 10.45 AM - 11.45 AM</li>
-          <li class="list-group-item">Venue: A3 Audi, 5th Floor, Admin Block</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-md-3 mb-4">
-      <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image" loading="lazy">
-        <div class="card-body">
-          <h5 class="card-title text-bold">Technical Session 4</h5>
-          <p class="card-text">
-            A detailed paragraph related to Session.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Date: Feb 27th, 2025</li>
-          <li class="list-group-item">Time: 10.45 AM - 11.45 AM</li>
-          <li class="list-group-item">Venue: A3 Audi, 5th Floor, Admin Block</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-md-3 mb-4">
-      <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image" loading="lazy">
-        <div class="card-body">
-          <h5 class="card-title text-bold">Technical Session 5</h5>
-          <p class="card-text">
-            A detailed paragraph related to Session.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Date: Feb 27th, 2025</li>
-          <li class="list-group-item">Time: 10.45 AM - 11.45 AM</li>
-          <li class="list-group-item">Venue: A3 Audi, 5th Floor, Admin Block</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-md-3 mb-4">
-      <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image" loading="lazy">
-        <div class="card-body">
-          <h5 class="card-title text-bold">Technical Session 6</h5>
-          <p class="card-text">
-            A detailed paragraph related to Session.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Date: Feb 27th, 2025</li>
-          <li class="list-group-item">Time: 10.45 AM - 11.45 AM</li>
-          <li class="list-group-item">Venue: A3 Audi, 5th Floor, Admin Block</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-md-3 mb-4">
-      <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image" loading="lazy">
-        <div class="card-body">
-          <h5 class="card-title text-bold">Technical Session 7</h5>
-          <p class="card-text">
-            A detailed paragraph related to Session.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Date: Feb 27th, 2025</li>
-          <li class="list-group-item">Time: 10.45 AM - 11.45 AM</li>
-          <li class="list-group-item">Venue: A3 Audi, 5th Floor, Admin Block</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-md-3 mb-4">
-      <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image" loading="lazy">
-        <div class="card-body">
-          <h5 class="card-title text-bold">Technical Session 8</h5>
-          <p class="card-text">
-            A detailed paragraph related to Session.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Date: Feb 27th, 2025</li>
-          <li class="list-group-item">Time: 10.45 AM - 11.45 AM</li>
-          <li class="list-group-item">Venue: A3 Audi, 5th Floor, Admin Block</li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
 
 </div>
@@ -308,3 +277,4 @@
 
 </body>
 </html>
+
